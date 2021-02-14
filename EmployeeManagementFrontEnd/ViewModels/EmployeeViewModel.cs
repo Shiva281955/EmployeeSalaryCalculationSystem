@@ -9,7 +9,8 @@ namespace EmployeeSalaryCalculationSystem.MVC.ViewModels
         public int EmployeeId { get; set; }
         public string EmployeeCode { get; set; }
 
-        [Required(ErrorMessage = "Please enter Firstname.")]
+        [Required(ErrorMessage = "Please enter your Firstname.")]
+        [Display(Name = "FirstName123")]
         public string FirstName { get; set; }
         public string MiddleName { get; set; }
         [Required(ErrorMessage = "Please enter Surname.")]
